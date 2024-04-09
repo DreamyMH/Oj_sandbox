@@ -1,4 +1,4 @@
-package docker;
+package com.docker;
 
 import com.github.dockerjava.core.DockerClientBuilder;
 

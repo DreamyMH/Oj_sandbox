@@ -1,0 +1,17 @@
+package com;
+
+import com.model.ExecuteCodeRequest;
+import com.model.ExecuteCodeResponse;
+import org.springframework.stereotype.Component;
+
+/**
+ * Java 原生代码沙箱实现(reuse method)
+ */
+@Component
+public class JavaNativeCodeSandbox extends JavaCodeSandboxTemplate {
+
+    @Override
+    public ExecuteCodeResponse executeCode(ExecuteCodeRequest executeCodeRequest) {
+        return super.executeCode(executeCodeRequest);
+    }
+}
