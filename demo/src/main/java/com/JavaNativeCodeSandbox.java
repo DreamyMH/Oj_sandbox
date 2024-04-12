@@ -5,7 +5,7 @@ import com.model.ExecuteCodeResponse;
 import org.springframework.stereotype.Component;
 
 /**
- * Java 原生代码沙箱实现(reuse method)
+ * Java 原生代码沙箱实现（直接复用模板方法）
  */
 @Component
 public class JavaNativeCodeSandbox extends JavaCodeSandboxTemplate {
